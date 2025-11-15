@@ -3,9 +3,16 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
+  
   server: {
     port: process.env.PORT || 5173,
   },
+
+  
+  preview: {
+    allowedHosts: ['prueba2-7rua.onrender.com']
+  },
+
   build: {
     outDir: 'dist'
   }
