@@ -58,7 +58,7 @@ export default {}
 }
 .bg-pedidos {
   background-color: #ffc107;
-
+}
 
 .card-number {
   color: #333;
